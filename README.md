@@ -65,8 +65,7 @@ We use the (MD&A) section of companies' SEC 10-K/Q filings to construct a corpor
 >**<span style="color:RED">Important</span>**: 
 >This solution is for demonstrative purposes only. It is not financial advice and should not be relied on as financial or investment advice. The associated notebooks, including the trained model, use synthetic data and are not intended for production. While text from SEC filings is used, the financial data is synthetically and randomly generated and has no relation to any company's true financials. Hence, the synthetically generated ratings also do not have any relation to a company's true rating. 
 
-**The dataset is downloaded directly from [SEC](https://www.sec.gov/os/accessing-edgar-data). If you have any question about the dataset, please directly reach out to the owner.**
-
+**The tabular dataset is simulated and is synthetic. The text dataset is downloaded directly from the SEC's EDGAR data repository and information about this data is available from https://www.sec.gov/os/accessing-edgar-data.**
 
 ## What are the outputs?
 
@@ -109,15 +108,7 @@ The trained [Graph Neural Network GraphSAGE](https://cs.stanford.edu/people/jure
 
 ## What is the estimated cost?
 
-Running the solution end-to-end costs less than $5 USD. Please make sure you have read the cleaning up instructions [here](#cleaning-up).
-
-## Cleaning up
-
-When you've finished with this solution, delete all unwanted AWS resources. AWS CloudFormation can be used to automatically delete all standard resources that have been created by the solution and notebook. Navigate to the [AWS CloudFormation Console](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-using-console.html), 
-and delete the parent stack. Choosing to delete the parent stack will automatically delete the nested stacks.
-
-**Caution:** You need to manually delete any extra resources that you may have created in this notebook. Some examples include, extra Amazon S3 buckets (to the solution's default bucket), extra Amazon SageMaker endpoints (using a custom name), and extra Amazon ECR repositories.
-
+Running the solution end-to-end on AWS SageMaker JumpStart costs less than $5 USD. Please make sure you have read the cleaning up instructions [here](#cleaning-up).
 
 ## Citations
 
