@@ -1,6 +1,21 @@
-## Solution
+# Graph-based Credit Scoring
 
 Credit ratings are traditionally generated using models that use financial statement data and market data, which is tabular only (numeric and categorical). This solution constructs a network of firms using [SEC filings](https://www.sec.gov/edgar/searchedgar/companysearch.html) and shows how to use the network of firm relationships with tabular data to generate accurate rating predictions. This solution demonstrates a methodology to use data on firm linkages to extend the traditionally tabular-based credit scoring models, which have been used by the ratings industry for decades, to the class of machine learning models on networks.
+
+
+## How to run this solution?
+
+1. Simply clone this repository to your local machine
+2. Start a jupyter server: `jupyter notebook`
+3. Open `notebook.ipynb`
+4. Run All Cells!
+
+You can also run the full-fledged version in [Amazon SageMaker Studio](https://aws.amazon.com/sagemaker/studio/).
+1. Log in your AWS account
+2. Go to SageMaker and launch a studio
+3. Navigate to [Amazon SageMaker JumpStart](https://aws.amazon.com/sagemaker/jumpstart/?sagemaker-data-wrangler-whats-new.sort-by=item.additionalFields.postDateTime&sagemaker-data-wrangler-whats-new.sort-order=desc).
+4. Under `Solutions`, look for `Graph-Based Credit Scoring`
+5. Launch it and run the notebook!
 
 
 ## What are the input datasets?
